@@ -11,6 +11,7 @@ defmodule HomepageAppWeb.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
+    plug HomepageApp.JwtAuthPlug
   end
 
   scope "/", HomepageAppWeb do
