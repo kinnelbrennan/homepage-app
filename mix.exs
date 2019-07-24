@@ -43,7 +43,8 @@ defmodule HomepageApp.MixProject do
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 2.0"},
       {:httpoison, "~> 1.5"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:joken, "~> 2.0-rcO"}
     ]
   end
 
